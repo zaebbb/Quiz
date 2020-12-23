@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<link href="./favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="currentQuestions">
+		<h2 id="currentQuestions"></h2>
+	</div>
+
+	<div class="quiz-container" id="quiz">
+		<h2 id="question">Question text</h2>
+		<ul>
+			<li>
+				<input class="answer" type="radio" id="a" name="answer">
+				<label id="a_text" for="a">Question</label>
+			</li>
+			<li>
+				<input class="answer" type="radio" id="b" name="answer">
+				<label id="b_text" for="b">Question</label>
+			</li>
+			<li>
+				<input class="answer" type="radio" id="c" name="answer">
+				<label id="c_text" for="c">Question</label>
+			</li>
+			<li>
+				<input class="answer" type="radio" id="d" name="answer">
+				<label id="d_text" for="d">Question</label>
+			</li>
+		</ul>
+		<button id="btn">Submit</button>
+	</div>
+
+	<div class="copyright">
+		<p>© 2020 Vladimir Zaeb. All rights reserved.</p>
+	</div>
+<script src="./script.js"></script>
+</body>
+</html>
